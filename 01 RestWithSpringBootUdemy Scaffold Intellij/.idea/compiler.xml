@@ -9,9 +9,13 @@
         <module name="rest-with-springboot-udemy" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="01 RestWithSpringBootUdemy Scaffold Intellij" target="11" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="01 RestWithSpringBootUdemy Scaffold Intellij" options="-parameters" />
       <module name="rest-with-springboot-udemy" options="-parameters" />
     </option>
   </component>
